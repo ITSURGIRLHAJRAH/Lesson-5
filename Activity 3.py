@@ -1,0 +1,9 @@
+his=int(input("Enter your History marks: "))
+eng=int(input("Enter your English marks: "))
+isl=int(input("Enter your Islamiyat marks: "))
+urdu=int(input("Enter your Urdu marks: "))
+geo=int(input("Enter your Geography marks: "))
+total=his+eng+isl+urdu+geo
+print("Total=", total)
+percentage=(total/500)*100
+print("Percentage=", percentage)
